@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const corsOptions = {
-  origin: ['https://mirano-project.onrender.com', 'http://localhost:${PORT}'},// Замените на URL вашего фронтенда
+  origin: ['https://mirano-project.onrender.com', 'http://localhost:${PORT}'],// Замените на URL вашего фронтенда
   credentials: true,
 };
 
